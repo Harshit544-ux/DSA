@@ -3,10 +3,13 @@ class Variables{
 
       //create and decalare
       int age = 18;
-      System.out.println("My age is :" , age)
+      System.out.println (age);
+
+     //assign value
+     age =20;
+     age=30; // it update the value of age -> 30
+
+     System.out.println(age);
 
 
-
-
-    }
 }
