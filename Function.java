@@ -28,10 +28,19 @@ class Base {
 // }
 
 
+
   static int add(int p, int q){
+    
     int sum = p+q;
-     return sum;
+    return sum;
    }
+
+   static int multiplication(int p, int q){
+    
+    int sum = p*q;
+    return sum;
+   }
+
 
     public static void main (String[] args){
 
@@ -45,7 +54,12 @@ class Base {
     // printSum(2,3);
 
 
-    add(2,3)
+   int ans =  add(2,3);
+   System.out.println("ans -> "+ans);
+   int ans1=multiplication(1,3);
+
+   System.out.println("an1 -> " + ans1);
+//    System.out.println("ans_ =",ans1);
 
     }
 }
