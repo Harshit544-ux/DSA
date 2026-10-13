@@ -59,7 +59,6 @@ class Base {
    int ans1=multiplication(1,3);
 
    System.out.println("an1 -> " + ans1);
-//    System.out.println("ans_ =",ans1);
 
     }
 }
