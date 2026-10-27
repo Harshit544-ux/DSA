@@ -68,6 +68,21 @@ class Strings{
     System.out.println(strs1.equalsIgnoreCase(strs2));//true 
 
 
+// access the character through the loop
+    String str="Love Babbar";
+
+    //Loop 0 - (n-1)
+
+    int lengthOfString =str.length();
+
+    for(int i=0;i<lengthOfString;i++){
+            //char ch=str.charAt(0); // L
+            //char ch=str.charAt(1); // o
+            
+            char ch = str.charAt(i);
+            // print the ch
+            System.out.print(ch + " ");
+    }
 
 
 
