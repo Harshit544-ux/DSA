@@ -42,6 +42,18 @@ class StringPractice{
        
    }
     
+   static void reverseOfString(String str){
+        int lengthOfString=str.length();
+         
+         for(int i=lengthOfString-1;i>=0;i--){
+             char ch=str.charAt(i);
+             System.out.println(ch);
+         }
+    
+    }
+
+
+
     public static void main(String[] args){
 
    String str="Love Babbar";
@@ -52,7 +64,7 @@ class StringPractice{
     int receiveTotalVowels = getVowelCount(str);
      System.out.println("the total vowels in particular string = " + receiveTotalVowels);
    
-
+      reverseOfString(str); //call the function
    
 
 
