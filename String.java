@@ -44,6 +44,30 @@ class Strings{
    System.out.println(str_1.length());
 
 
+  //Compare String
+    String strs1="Harshit";
+    String strs2="Harshit";
+
+    System.out.println(strs1==strs2);//true
+
+    String strs1="Harshit";
+    String strs2="Har";
+    System.out.println(strs1==strs2);//false
+
+   
+    String strs1="Harshit";
+    String strs2="HarShit";
+    System.out.println(strs1.equals(strs2));//true
+
+    String strs1="Harshit";
+    String strs2="HarShit";
+    System.out.println(strs1.equals(strs2)); //Case Sensitive :- false
+
+    String strs1="Harshit";
+    String strs2="HaRsHit";
+    System.out.println(strs1.equalsIgnoreCase(strs2));//true 
+
+
 
 
 
