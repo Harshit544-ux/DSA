@@ -30,6 +30,18 @@ class Strings{
    String name4="Love Babbar";
    System.out.println(name4.length());//11
 
+   
+   //Access of string
+   // always used charAt(i)
+
+   String str_1="Garvit Srivastava";
+   System.out.println(str_1.charAt(0));
+   System.out.println(str_1.charAt(1));
+   System.out.println(str_1.charAt(5));
+   System.out.println(str_1.charAt(7));
+   System.out.println(str_1.charAt(13));
+
+   System.out.println(str_1.length());
 
 
 
