@@ -76,6 +76,24 @@ class Maths {
     }
 
 
+    static void isEvenOrOdd(int n){
+        int evenCount = 0;
+        int oddCount = 0;
+
+        for(int i=1;i<=n;i++){           
+            if(i%2==0){
+                evenCount++;
+            }
+            else{
+                oddCount++;
+            }
+        }
+       System.out.println("Total Even Count " + evenCount);
+       System.out.println("Total Odd Count " + oddCount);
+
+
+    }
+
     
     public static void main(String[] args) {
         int num;
@@ -83,6 +101,8 @@ class Maths {
         // System.out.println(reverseNumber(num=53127)) ;
         // System.out.println(countSumOfDigit(num=53127)) ;
         // System.out.println(isPallendrome(num=1221)) ;
-          System.out.println( isArmstrongNumber(num=153)) ;
+        //   System.out.println( isArmstrongNumber(num=153)) ;
+
+         isEvenOrOdd(num=15) ;
     }
 }
