@@ -94,15 +94,47 @@ class Maths {
 
     }
 
+   static int productOfDigits(int n){
+    //n=234
+
+    int product=1;
+    //condition false when n==0
+    // 0!=0 -> false
+    while(n!=0){
+        int digit=n%10;
+        product=product*digit;
+        n=n/10;
+    }
+    return product;
+
+   }
     
+  
+  static boolean perfectNumber(int n){
+    
+   int sum=0;
+   for(int i=1;i<n;i++){
+    if(n%i==0){
+        sum = sum + i;
+    }
+   }
+
+   return sum == n;
+
+  }
+
+
     public static void main(String[] args) {
         int num;
         // printDigit(num=53127);
         // System.out.println(reverseNumber(num=53127)) ;
         // System.out.println(countSumOfDigit(num=53127)) ;
         // System.out.println(isPallendrome(num=1221)) ;
-        //   System.out.println( isArmstrongNumber(num=153)) ;
+        // System.out.println( isArmstrongNumber(num=153)) ;
 
-         isEvenOrOdd(num=15) ;
+        //  isEvenOrOdd(num=15) ;
+        //  System.out.println(productOfDigits(num=234)); 
+          System.out.println(perfectNumber(num=6)); 
     }
+
 }
