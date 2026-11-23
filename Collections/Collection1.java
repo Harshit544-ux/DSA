@@ -151,6 +151,25 @@ System.out.println(ll1.getLast());
 
 
 
+//Vector
+
+Vector<Integer> vector = new Vector<>();
+vector.add(11);
+vector.add(11);
+vector.add(12);
+vector.add(13);
+System.out.println("Vector => " + vector);
+
+vector.addElement(67);
+vector.addElement(77);
+System.out.println(vector);
+
+//get
+
+System.out.println(vector.firstElement());
+System.out.println(vector.lastElement());
+
+
 
 
 
