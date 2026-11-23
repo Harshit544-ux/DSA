@@ -106,14 +106,48 @@ while(it.hasNext()) {
 
 
 
+//LinkedList
+
+LinkedList<Integer> ll = new LinkedList<>();
+
+ll.add(10);
+ll.add(20);
+ll.add(30);
+ll.add(40);
+
+System.out.println("LinkedList = > " + ll);
 
 
+LinkedList<String> ll1 = new LinkedList<>();
 
+ll1.add("Harsh");
+ll1.add("20");
+ll1.add("30");
+ll1.add("40");
 
+System.out.println("LinkedList = > " + ll1);
 
+ll1.addFirst("5");
+ll1.addFirst("Ram");
+ll1.addFirst("Lakshman");
 
+System.out.println("LinkedList = > " + ll1);
 
+ll1.addLast("8");
+ll1.addLast("Modi");
 
+System.out.println("LinkedList = > " + ll1);
+
+System.out.println(ll1.getFirst());
+System.out.println(ll1.getLast());
+
+ll1.removeFirst();
+System.out.println(ll1);
+System.out.println(ll1.getFirst());
+
+ll1.removeLast();
+System.out.println(ll1);
+System.out.println(ll1.getLast());
 
 
 
